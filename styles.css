@@ -6,7 +6,7 @@ body {
 h1 {
   font-size: 5rem;
   color: #DBEDF3;
-  font-family: "Arvo", cursive;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-shadow: 3px 0 #DA0463;
 
 }
@@ -18,30 +18,37 @@ footer {
 
 .w {
   background-image: url("images/tom1.png");
+  background-size: contain;
 }
 
 .a {
   background-image: url("images/tom2.png");
+  background-size: contain;
 }
 
 .s {
   background-image: url("images/tom3.png");
+  background-size:auto;
 }
 
 .d {
   background-image: url("images/tom4.png");
+  background-size: cover;
 }
 
 .j {
   background-image: url("images/snare.png");
+  background-size: auto;
 }
 
 .k {
   background-image: url("images/crash.png");
+  background-size: auto;
 }
 
 .l {
   background-image: url("images/kick.png");
+  background-size: contain;
 }
 
 .set {
@@ -59,17 +66,17 @@ footer {
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
-  font-size: 5rem;
+  border: 5px solid #404B69;
+  font-size: 4rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
   color: #0a0a0a;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
+  text-shadow: 2px 0 #DBEDF3;
+  border-radius: 50%;
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 165px;
+  height: 165px;
   text-align: center;
   margin: 10px;
   background-color: white;
@@ -89,7 +96,7 @@ footer {
 body {
   background: linear-gradient(125deg, #283149, #404B69, #DA0463);
   background-size: 400% 400%;
-  animation: gradientAnimation 10s ease infinite;
+  animation: gradientAnimation 5s ease infinite;
 }
 
 @keyframes gradientAnimation {
